@@ -15,7 +15,7 @@ from azure.search.documents import SearchClient
 from azure.ai.formrecognizer import DocumentAnalysisClient
 
 MAX_SECTION_LENGTH = 1000
-SENTENCE_SEARCH_LIMIT = 1000
+SENTENCE_SEARCH_LIMIT = 1500
 SECTION_OVERLAP = 150
 
 parser = argparse.ArgumentParser(
